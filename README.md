@@ -1,12 +1,12 @@
-# FlowSync - Modern Landing Page with Dark Mode 🌓
+# Your Name - Modern Portfolio with Dark Mode 🌓
 
 A beautiful, modern, and fully responsive landing page built with **React**, featuring smooth animations, interactive elements, **professional dark mode**, and a clean minimalist design.
 
-![FlowSync Landing Page](https://via.placeholder.com/1200x600/6366f1/ffffff?text=FlowSync+Landing+Page)
+![Your Name Portfolio](https://via.placeholder.com/1200x600/6366f1/ffffff?text=Your+Name+Portfolio)
 
 ## 🎯 Purpose
 
-This landing page showcases **FlowSync** - a fictional productivity and team collaboration platform. The design demonstrates modern web development practices and can be easily adapted for any product, app, or service.
+This landing page showcases **Your Name** - a professional portfolio and personal brand. The design demonstrates modern web development practices and can be easily adapted for any personal or professional use.
 
 ## ✨ Features
 
