@@ -27,7 +27,7 @@ function Header({ isMenuOpen, setIsMenuOpen, scrollToSection, theme, toggleTheme
           {/* Logo */}
           <div className="logo" onClick={() => scrollToSection('home')}>
             <span className="logo-icon">⚡</span>
-            <span className="logo-text">FlowSync</span>
+            <span className="logo-text">Your Name</span>
           </div>
 
           {/* Desktop Navigation Menu */}
