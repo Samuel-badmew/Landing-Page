@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "description": "Your Name - Professional Portfolio",
   "homepage": "https://samuel-badmew.github.io/Landing-Page/",
-  "private": false,
+  "private": true,
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
