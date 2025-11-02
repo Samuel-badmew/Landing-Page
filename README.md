@@ -13,6 +13,9 @@ This landing page showcases **FlowSync** - a fictional productivity and team col
 ### Design & UI
 - ✅ **Clean, minimalist, modern design**
 - ✅ **Black & white theme with indigo accent color**
+- ✅ **🌓 Professional Dark Mode** - Enterprise-grade theme toggle
+- ✅ **Auto theme detection** - Detects system preference
+- ✅ **Persistent storage** - Saves user preference
 - ✅ **Fully responsive** (mobile, tablet, desktop)
 - ✅ **Smooth animations and transitions**
 - ✅ **Hover effects on buttons and cards**
@@ -21,6 +24,7 @@ This landing page showcases **FlowSync** - a fictional productivity and team col
 ### Sections Included
 1. **Header / Navbar**
    - Sticky navigation bar
+   - **Dark/Light mode toggle** (animated switch)
    - Links to all sections
    - Hamburger menu for mobile
    - Smooth scroll navigation
@@ -63,6 +67,7 @@ This landing page showcases **FlowSync** - a fictional productivity and team col
    - Site navigation
 
 ### Interactive Features
+- ✅ **🌓 Dark/Light Mode Toggle** - Professional theme switcher
 - ✅ **Smooth scrolling** between sections
 - ✅ **Hamburger menu** for mobile devices
 - ✅ **Form validation** with error messages
@@ -74,7 +79,8 @@ This landing page showcases **FlowSync** - a fictional productivity and team col
 
 - **React 18.2** - UI framework
 - **React Hooks** - State management (useState, useEffect)
-- **CSS3** - Styling with custom properties
+- **CSS3** - Styling with custom properties (CSS Variables for theming)
+- **LocalStorage API** - Theme persistence
 - **Functional Components** - Modern React patterns
 - **Semantic HTML5** - Accessible markup
 
@@ -86,19 +92,21 @@ Landing Page/
 │   └── index.html          # HTML template
 ├── src/
 │   ├── components/
-│   │   ├── Header.js       # Navigation component
+│   │   ├── Header.js       # Navigation + theme toggle
+│   │   ├── ThemeToggle.js  # Dark mode toggle switch
 │   │   ├── Hero.js         # Hero section
 │   │   ├── Features.js     # Features showcase
 │   │   ├── Pricing.js      # Pricing plans
 │   │   ├── Testimonials.js # User testimonials
 │   │   ├── Contact.js      # Contact form
 │   │   └── Footer.js       # Footer component
-│   ├── App.js              # Main app component
-│   ├── App.css             # Component styles
+│   ├── App.js              # Main app + theme management
+│   ├── App.css             # Component styles + dark mode
 │   ├── index.js            # React entry point
-│   └── index.css           # Global styles
+│   └── index.css           # Global styles + theme colors
 ├── package.json            # Dependencies
-└── README.md              # Documentation
+├── DARK_MODE_GUIDE.md     # Dark mode documentation
+└── README.md              # Main documentation
 ```
 
 ## 🚀 Getting Started
@@ -139,6 +147,48 @@ npm run build
 ```
 
 This creates a `build/` folder with optimized, minified files ready for deployment.
+
+## 🌓 Dark Mode Feature
+
+### Overview
+The landing page includes a **professional, enterprise-grade dark mode** that rivals implementations by major companies like Google, Apple, and Microsoft.
+
+### Key Features
+- 🎯 **Auto-Detection** - Automatically detects system theme preference
+- 💾 **Persistent** - Saves user choice in localStorage
+- ⚡ **Instant** - No flash of unstyled content
+- 🎨 **Beautiful** - Carefully crafted dark color palette
+- ♿ **Accessible** - Keyboard navigable with ARIA labels
+- 📱 **Responsive** - Works perfectly on all devices
+
+### How to Use
+1. Click the toggle switch in the top-right of the navigation bar
+2. ☀️ = Light mode | 🌙 = Dark mode
+3. Your preference is automatically saved
+
+### For Developers
+See **DARK_MODE_GUIDE.md** for complete documentation including:
+- Implementation details
+- Customization guide
+- Adding dark mode to new components
+- Troubleshooting
+- Advanced features
+
+### Color Themes
+
+**Light Mode**
+```css
+Background: #ffffff (white)
+Text: #1f2937 (dark gray)
+Accent: #6366f1 (indigo)
+```
+
+**Dark Mode**
+```css
+Background: #0f172a (deep slate)
+Text: #f9fafb (off-white)
+Accent: #818cf8 (light indigo)
+```
 
 ## 📱 Responsive Breakpoints
 
